@@ -151,6 +151,14 @@ button{
     width: 80%;
 }
 
+.tweet-reply-button{
+    border-top: 1px solid #284b63;
+    padding: 20px 0 0 0px;
+    margin: 10px 0 10px 40px;
+    width: 80%;
+    height: 70px;
+}
+
 .handle{
     font-size: 12px;
     font-weight: 800;
