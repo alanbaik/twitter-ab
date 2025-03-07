@@ -213,7 +213,7 @@ function getFeedHtml(){
         <div id="reply-log-${tweet.uuid}">
             ${repliesHtml}
         </div>
-        <div class="tweet-reply">
+        <div class="tweet-reply-button">
             <div class="tweet-inner">
                 <img src="images/ota.jpg" class="profile-pic">
                 <textarea placeholder="Reply!" class="reply-text"></textarea>
