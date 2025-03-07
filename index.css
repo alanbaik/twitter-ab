@@ -82,10 +82,11 @@ textarea{
     resize: none;
     padding: 15px 10px;
     margin: 0 0 20px 0;
-    height: 30px;
+    height: 100%;
     width: 100%;
     font-size: 15px;
     line-height: 15px;
+    font-family: inherit;
 }
 
 #tweet-reply {

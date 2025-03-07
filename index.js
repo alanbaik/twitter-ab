@@ -96,7 +96,7 @@ function handleReplyBtnClick(e){
     const targetTweetObj = tweetsData.filter(function(tweet){
         return tweet.uuid === e.target.dataset.replyButton
     })[0]
-    const replyBox = e.target.closest('.tweet-reply').querySelector('textarea'); 
+    const replyBox = e.target.closest('.tweet-reply-button').querySelector('textarea'); 
 
     if(replyBox.value){
         targetTweetObj.replies.push({
